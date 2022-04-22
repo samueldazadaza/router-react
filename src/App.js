@@ -6,7 +6,9 @@
    Link,
  } from 'react-router-dom'
 
- import Inicio from "./components/inicio.jsx";
+ //importar componentes personalizados
+ import Inicio from "./components/Inicio";
+ import Base from "./components/Base";
 
 function App() {
   return (
@@ -15,12 +17,12 @@ function App() {
 
             <Route
         		path="/Inicio"
-				element={"texto plano de ruta /inicio"}
+				element={<Inicio/>}
 			/>
 
             <Route
 				path="/"
-				element={"texto plano raiz (/) "}
+				element={<Base/>}
 			/>
         
       </Routes>

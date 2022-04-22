@@ -1,7 +1,11 @@
-import React from "react";
+import React from 'react'
 
-const Inicio = () => (
-    <div>helooooooooooooooo iniciooooooo</div>
-)
+const Inicio = () => {
+  return (
+    <div>
+        <h1>Pagina de inicio</h1>
+    </div>
+  )
+}
 
 export default Inicio
