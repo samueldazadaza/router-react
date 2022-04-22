@@ -13,8 +13,10 @@
 function App() {
   return (
     <Router>
-      <Routes>
+		<Link to="/inicio" className="p-3">Inicio</Link>
+		<Link to="/">Base</Link>
 
+      <Routes>
             <Route
         		path="/Inicio"
 				element={<Inicio/>}
@@ -24,7 +26,6 @@ function App() {
 				path="/"
 				element={<Base/>}
 			/>
-        
       </Routes>
     </Router>
     );
