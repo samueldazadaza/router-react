@@ -18,7 +18,7 @@ function App() {
 
       <Routes>
             <Route
-        		path="/Inicio"
+        		path="/Inicio/:id/:nombre/:edad"
 				element={<Inicio/>}
 			/>
 
